@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: retail-container
-        image: image: 16akash/retail-app:v1
+        image: 16akash/retail-app:v1
         ports:
         - containerPort: 3130  # Change to match your app's port
         env:
